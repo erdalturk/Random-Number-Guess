@@ -1,13 +1,13 @@
 #Merhaba
 import random
 
-numbers = random.randint(1,10)
+#numbers = random.randint(1,10)
 #1'den 10'a kadar sayıları rastgele döndüren bir fonksiyonu değişkene atadık.
 
 while True:
+    numbers = random.randint(1,10)
     try:
         user_Guess = int(input("Please make a guess.(1 to 10)"))
-        user_Guess = int(user_Guess)
 
         if 1<= user_Guess <=10:
             print("Number: ", numbers)
